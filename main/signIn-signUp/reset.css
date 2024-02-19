@@ -1,0 +1,20 @@
+
+.buttons #signup{
+    height: fit-content;
+    width: 100%;
+    padding: 8px;
+    background: rgb(117, 135, 153);
+    border: 0;
+    color: rgb(194, 202, 206);
+    font-size: 1.2rem;
+}
+
+
+.header .buttons #signup:hover {
+    background: rgb(143, 165, 187);
+}
+
+
+.header h5{
+    color: rgb(194, 202, 206);
+}

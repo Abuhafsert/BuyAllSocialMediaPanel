@@ -1,0 +1,311 @@
+:root{
+    --backgroun-color: rgba(27, 54, 82, 1);
+    --primary-color: rgb(117, 135, 153);
+}
+
+
+
+body{
+    padding: 0;
+}
+
+body{
+    color: antiquewhite;
+    background: rgb(191, 206, 221);
+
+}
+
+
+
+
+.div h3,
+.rss h5{
+    background: var(--backgroun-color);
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.div p{
+    text-align: center;
+    /* color: var(--backgroun-color); */
+    background: var(--primary-color);
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.cooling-image,
+.why-allsocial img,
+.working-24 img ,
+.welcoming img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.header {
+    flex-basis: 30rem;
+    flex-shrink: 2;
+    box-shadow: 0 0 10px rgb(182, 191, 195);
+    padding: 10px;
+    background: var(--backgroun-color);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px 30px 0;
+    flex-grow: 0;
+}
+
+
+
+.form-group {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: rgb(49, 67, 85);
+    /* border: 1px solid antiquewhite; */
+    margin: 20px 0 10px;
+    border-radius: 5px;
+    /* padding: 0 10px; */
+}
+
+.Features,
+.why-allsocial,
+.working-24,
+.welcoming,
+.watching-video  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.Features h4,
+.Features h5,
+.why-allsocial h4,
+.working-24 h4,
+.welcoming h4,
+.watching-video h4
+    {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: var(--backgroun-color);
+    text-align: center;
+}
+
+.Features p,
+.Features h6,
+.why-allsocial p,
+.working-24 p,
+.welcoming p{
+    text-align: center;
+    color: rgb(100, 116, 132);
+}
+
+
+.working-24 img{
+    border-radius: 62% 38% 62% 38% / 65% 69% 31% 35%;
+}
+
+.why-allsocial img{
+    border-radius: 59% 41% 97% 3% / 70% 100% 0% 30%;
+}
+
+.welcoming img{
+    border-radius: 59% 41% 29% 71% / 70% 100% 0% 30%;
+}
+
+.watching-video {
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgb(98, 101, 102);
+}
+
+.watching-video h4{
+    color: antiquewhite;
+
+}
+video{
+    width: 200px;
+    margin: 20px 0 0 0;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rss h5{
+    margin: 0;
+}
+
+
+
+#firstform {
+    width: 100%;
+}
+
+.form-group input{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: rgb(49, 67, 85);
+    color: rgb(219, 213, 205);
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    height: max-content;
+    width: 100%;
+}
+
+
+.form-group input::placeholder{
+    color: rgb(74, 95, 117);
+}
+
+.form-group i{
+    font-size: 1.3rem;
+    color: rgb(90, 111, 132);
+    position: absolute;
+    left: 10px;
+}
+
+.form-group .fa-regular{
+    left: 88%;
+}
+.header .rememberMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rememberMe label{
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.forgetPassword input{
+    font-size: 50rem;
+    transform: scale(.8);
+}
+.forgetPassword {
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgetPassword a{
+    padding-right: 5px;
+    flex-wrap: wrap;
+    color: rgb(143, 165, 187);
+    word-break: keep-all;
+
+}
+
+
+.header .buttons {
+    width: 100%;
+    margin: 20px 0 10px;
+    padding: 0 10px;
+    height: fit-content;
+}
+
+.header .buttons .btn{
+    height: fit-content;
+    width: 100%;
+    padding: 8px;
+    background: rgb(117, 135, 153);
+    border: 0;
+    color: rgb(194, 202, 206);
+    font-size: 1.2rem;
+}
+
+
+.header .Signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.header .Signup p{
+    margin: 0;
+}
+
+
+.header .Signup .signingup{
+    padding: 0 2px;
+    margin: 0;
+    color: rgb(143, 165, 187);
+    line-height: 0;
+    word-break: keep-all;
+    flex-wrap: nowrap;
+
+}
+
+.header a:hover,
+.header .Signup .signingup:hover   {
+    color: rgb(100, 116, 132);
+}
+
+.header .buttons .btn:hover {
+    background: rgb(143, 165, 187);
+}
+
+#warning {
+    background: rgb(123, 79, 79);
+    padding: 3px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    
+}
+
+
+@media  screen and (min-width: 768px){
+    .responsive{
+        display: flex;
+    }
+    .Features-primary {
+        width: 50ch;
+    }
+    .Features,
+    .why-allsocial,
+    .working-24,
+    .welcoming,
+    .watching-video
+    {
+        flex-direction: column;
+    }
+}
+
+
+#warning {
+    
+}

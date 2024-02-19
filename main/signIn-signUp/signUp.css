@@ -1,0 +1,67 @@
+body{
+    color: antiquewhite;
+    background: rgb(191, 206, 221);
+}
+
+
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+}
+
+.buttons button{
+    margin: 0 10px 0 0;
+    background: rgb(100, 115, 129);
+    border: 0;
+    color: rgb(194, 202, 206);
+    font-size: 1.2rem;
+}
+
+.buttons button:hover{
+    background: rgb(117, 135, 153);
+}
+
+
+.buttons span{
+    display: flex;
+}
+
+
+.buttons span a{
+    color: rgb(223, 202, 175);
+}
+.buttons span a:hover{
+    color: rgb(146, 137, 127);
+}
+
+.warning {
+    background: rgb(123, 79, 79);
+    padding: 3px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+
+.confirming-email {
+    text-align: center;
+}
+
+.message {
+    background: rgb(100, 115, 129);
+    color: rgb(194, 202, 206);
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.endpoint h5{
+    width: 100%;
+}
+
+.endpoint {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: end;
+}

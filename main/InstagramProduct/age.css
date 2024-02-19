@@ -1,0 +1,191 @@
+:root{
+    --font-size-primary: 1.2rem;
+    --font-size-secondary: 1.5rem;
+    --font-size-tertiary: 2rem;
+    --width-size: 80%;
+}
+
+.primary-container {
+    padding: 0 20px;
+}
+.referral {
+    background: rgb(211, 222, 227);
+    margin-top: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: rgb(78, 75, 72);
+    padding: 10px;
+}
+
+
+
+.referral h5 a{
+    color: rgb(164, 121, 64);
+}
+
+.referral h5 a:hover{
+    color: rgb(205, 162, 106);
+}
+
+.referral h5{
+    margin: 20px;
+    text-align: center;
+    background: rgb(34, 55, 63);
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 5px;
+}
+.nofollower  {
+    background: rgb(149, 173, 182);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+
+.referral ul {
+    margin-top: 20px;
+}
+
+.referral li{
+    list-style: none;
+}
+
+.nofollower {
+    margin: 0 0 0 0;
+}
+
+.referral .nofollower  input{
+    /* font-size: var(--font-size-primary); */
+    width: 30%;
+    border: 1px solid rgb(236, 233, 227);
+    color: rgb(92, 96, 97);
+    margin-left: 5px;
+}
+
+.referral .nofollower  div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.referral .nofollower  input:focus{
+    border: 1px solid rgb(108, 104, 98);
+}
+
+.nofollower  p{
+    margin: 0;
+    flex-wrap: nowrap;
+    word-break: keep-all;
+}
+
+.referral-accounts {
+    display: none;
+}
+
+.referral-accounts h6{
+    display: flex;
+    font-size: calc(var(--font-size-secondary) - 0.2rem);
+}
+.referral-accounts img{
+    overflow: scroll;
+    width: 50%;
+    object-fit: cover;
+}
+
+.referral-accounts div{
+    background: rgb(149, 173, 182);
+    width: 50%;
+    word-break: break-all;
+    padding: 10px;
+    color: rgb(78, 75, 72);
+}
+
+.referral-accounts div button{
+    background: rgb(212, 209, 206);
+    border: 0;
+    width: 100%;
+}
+
+.referral-accounts div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.referral-accounts div button:hover{
+    background: bisque;
+}
+
+
+.referral-accounts h6{
+    font-size: var(--font-size-secondary);
+    margin: 3px;
+}
+
+.referral-accounts span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.referral-accounts span p{
+    text-align: center;
+    padding-right: 5px;
+}
+
+.prices {
+    font-size: var(--font-size-secondary);
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.price {
+    font-size: calc(var(--font-size-primary) + 0.2rem);
+    margin: 0;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    :root{
+        --font-size-primary: 1rem;
+    }
+    .referral .nofollower  input{
+        font-size: calc(var(--font-size-primary) + 0.2rem);
+        padding: 3px;
+    }
+    .referral-accounts h6{
+        font-size: var(--font-size-primary);
+        margin: 3px;
+    }
+    .nofollower p{
+        font-size: var(--font-size-secondary);
+    }
+    .referral-accounts span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .quantity p{
+        font-size: calc(var(--font-size-primary) + .2rem) ;
+    }
+
+    .prices {
+        font-size: var(--font-size-secondary);
+        padding: 0;
+        margin: 0 0 20px;
+    }
+
+    .price {
+        font-size: calc(var(--font-size-primary) + 0.2rem);
+        margin: 0;
+        flex-wrap: nowrap;
+        word-break: keep-all;
+    }
+    
+}

@@ -1,0 +1,112 @@
+#paymentForm {
+    background: rgb(170, 185, 201);
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(115, 135, 142);
+}
+
+#paymentForm label{
+    margin: 10px;
+    color: rgb(57, 72, 86);
+}
+
+#paymentForm .payment-button{
+    margin: 0 10px;
+    background: #515559;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 30%; */
+    /* transform: scale(30%); */
+}
+
+#paymentForm .payment-button button{
+    background: rgba(27, 54, 82, 1);
+    width: 100%;
+    border: 0;
+}
+
+#paymentForm .payment-button button:hover{
+    background: rgb(36, 55, 75);
+}
+
+.payment-option,
+.payment-input {
+    border: 0;
+    border-bottom: 2px solid black;
+    color: aliceblue;
+    background: rgb(145, 155, 165);
+    /* background: rgb(212, 227, 227, 1); */
+    margin: 10px;
+    border-radius: 0;
+    padding: 3px 0;
+    /* display: flex; */
+}
+
+.payment-input #fund-input {
+    border: 0;
+    color: #515559;
+}
+
+#payment-option {
+    border: 0;
+    color: #515559;
+    /* background: rgb(145, 155, 165); */
+}
+
+#payment-option:focus {
+    border: 0;
+    color: #515559;
+    border: 0;
+    outline: 0;
+}
+
+.payment-option {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-option i{
+    color: #515559;
+    font-size: 2rem;
+    position: relative;
+    top: 0.2px;
+    left: -30px;
+    /* margin-right: 10px; */
+}
+#payment-option option{
+    background: rgb(145, 155, 165);
+    color: #515559;
+}
+.important-notice{
+    margin: 30px;
+}
+
+.important-container {
+    margin-bottom: 20px;
+    background: rgb(170, 185, 201);
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(115, 135, 142);
+}
+
+.important-container h5{
+    font-size: 1.3rem;
+    color: #242c33;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.important-container h5 a{
+    color: rgb(36, 136, 161);
+}
+
+video{
+    width: 300px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

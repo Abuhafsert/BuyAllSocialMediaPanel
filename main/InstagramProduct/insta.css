@@ -1,0 +1,85 @@
+
+
+
+.referral {
+    background: rgb(211, 222, 227);
+    margin-top: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: rgb(78, 75, 72);
+    padding: 10px;
+}
+
+.referral h5 a{
+    color: rgb(164, 121, 64);
+}
+
+
+.referral h5 a:hover{
+    color: rgb(205, 162, 106);
+}
+.nofollower {
+    background: rgb(149, 173, 182);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.referral .nofollower input{
+    width: 30%;
+    border: 1px solid rgb(236, 233, 227);
+    color: rgb(92, 96, 97);
+    margin-left: 5px;
+}
+
+.referral .nofollower div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.referral .nofollower input:focus{
+    border: 1px solid rgb(108, 104, 98);
+}
+
+.nofollower p{
+    margin: 0;
+    flex-wrap: nowrap;
+    word-break: keep-all;
+}
+
+.referral-accounts {
+    display: none;
+}
+
+.referral-accounts img{
+    overflow: scroll;
+    width: 50%;
+    object-fit: cover;
+}
+
+.referral-accounts div{
+    background: rgb(149, 173, 182);
+    width: 50%;
+    word-break: break-all;
+    padding: 10px;
+    color: rgb(78, 75, 72);
+}
+
+.referral-accounts div button{
+    background: rgb(212, 209, 206);
+    border: 0;
+    width: 100%;
+}
+
+.referral-accounts div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.referral-accounts div button:hover{
+    background: bisque;
+}
